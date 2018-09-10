@@ -3,3 +3,9 @@ apply plugin: 'org.jetbrains.kotlin.platform.common'
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version"
 }
+
+kotlin {
+    experimental {
+        coroutines "enable"
+    }
+}
