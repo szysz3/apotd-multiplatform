@@ -1,1 +1,1 @@
-include ':droid', ':common'
+include ':droid', ':common', ':platform-droid'

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/apotd-multiplatform.iml" filepath="$PROJECT_DIR$/apotd-multiplatform.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/droid/droid.iml" filepath="$PROJECT_DIR$/droid/droid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-droid/platform-droid.iml" filepath="$PROJECT_DIR$/platform-droid/platform-droid.iml" />
     </modules>
   </component>
 </project>
