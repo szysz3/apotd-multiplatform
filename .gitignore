@@ -64,3 +64,8 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 vcs.xml
+Podfile.lock
+ios/apotd/Pods
+ios/apotd/apotd.xcodeproj/xcuserdata
+ios/apotd/apotd.xcworkspace
+ios/apotd/apotd.xcodeproj/project.xcworkspace

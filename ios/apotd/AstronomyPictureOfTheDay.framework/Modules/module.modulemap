@@ -1,0 +1,6 @@
+framework module AstronomyPictureOfTheDay {
+    umbrella header "AstronomyPictureOfTheDay.h"
+
+    export *
+    module * { export * }
+}
