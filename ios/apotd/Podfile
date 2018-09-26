@@ -5,6 +5,7 @@ use_frameworks!
 target 'apotd' do
 inherit! :search_paths
 pod 'Alamofire', '~> 4.7'
+pod 'Kingfisher', '~> 4.10'
 pod 'SwiftyJSON'
 pod 'EasyDi'
 end
