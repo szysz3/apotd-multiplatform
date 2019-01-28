@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity(), MainView {
     }
 
     override fun showAPOTD(apotd: PictureOfTheDay) {
-        Picasso.get().load(apotd.url).fit().into(apotdImage)
+        Picasso.get().load(apotd.url).fit().centerCrop().into(apotdImage)
         titleTextView.text = apotd.title
     }
 

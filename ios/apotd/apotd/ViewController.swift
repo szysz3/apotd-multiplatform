@@ -14,6 +14,10 @@ class ViewController: UIViewController, APOTDMainView {
     @IBOutlet weak var previousButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         repository = ApotdRepository(baseUrl: APOTDConstantsCompanion().apotd_ENDPOINT,
@@ -63,6 +67,6 @@ class ViewController: UIViewController, APOTDMainView {
     func changeNextButtonState(isEnabled: Bool) {
         nextButton.isHidden = !isEnabled
     }
-
+    
 }
 
