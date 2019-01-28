@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		E7A6667F215AB647000F1790 /* ApotdParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A6667E215AB647000F1790 /* ApotdParser.swift */; };
 		E7A66681215AB84D000F1790 /* ApotdRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A66680215AB84D000F1790 /* ApotdRepository.swift */; };
-		E7E9851321FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9851221FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework */; };
-		E7E9851421FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9851221FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7E9851621FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9851521FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework */; };
+		E7E9851721FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7E9851521FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7F63C272159356A0053DC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F63C262159356A0053DC6C /* AppDelegate.swift */; };
 		E7F63C292159356A0053DC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F63C282159356A0053DC6C /* ViewController.swift */; };
 		E7F63C2C2159356A0053DC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F63C2A2159356A0053DC6C /* Main.storyboard */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E7A66679215AB52A000F1790 /* Embed Frameworks */ = {
+		E7E9851821FF29B50071FCF9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E7E9851421FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework in Embed Frameworks */,
+				E7E9851721FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,6 +40,7 @@
 		E7A6667E215AB647000F1790 /* ApotdParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApotdParser.swift; sourceTree = "<group>"; };
 		E7A66680215AB84D000F1790 /* ApotdRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApotdRepository.swift; sourceTree = "<group>"; };
 		E7E9851221FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AstronomyPictureOfTheDay.framework; sourceTree = "<group>"; };
+		E7E9851521FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AstronomyPictureOfTheDay.framework; path = "../../platform-ios/build/konan/bin/ios_arm64/AstronomyPictureOfTheDay.framework"; sourceTree = "<group>"; };
 		E7F63C232159356A0053DC6C /* apotd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apotd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F63C262159356A0053DC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F63C282159356A0053DC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E9851321FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework in Frameworks */,
+				E7E9851621FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework in Frameworks */,
 				E95A3A07D380E6FC20036AF3 /* Pods_apotd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				E7E9851221FF154C0071FCF9 /* AstronomyPictureOfTheDay.framework */,
+				E7E9851521FF29B50071FCF9 /* AstronomyPictureOfTheDay.framework */,
 				E7F63C252159356A0053DC6C /* apotd */,
 				E7F63C242159356A0053DC6C /* Products */,
 				0DF81F9B5624AEEE6534677D /* Frameworks */,
@@ -133,7 +135,7 @@
 				E7F63C20215935690053DC6C /* Frameworks */,
 				E7F63C21215935690053DC6C /* Resources */,
 				C8C83218DBEA15710D706EF5 /* [CP] Embed Pods Frameworks */,
-				E7A66679215AB52A000F1790 /* Embed Frameworks */,
+				E7E9851821FF29B50071FCF9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
